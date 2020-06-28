@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABCD</title>
+</head>
+<body>
+
+	<p id="text"></p>
+
+	<script type="text/javascript">
+		var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		var element = document.getElementById('text');
+		if (isMobile) {
+  			window.location = "arunmathaisk.github.io/runtest/mobile.html";
+		} else {
+			element.innerHTML = "arunmathaisk.github.io/runtest/desktop.html";
+		}
+	</script>
+</body>
+</html>
